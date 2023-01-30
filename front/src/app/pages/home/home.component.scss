@@ -1,0 +1,90 @@
+:host{
+  display: block;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  background-color: lightgray;
+  padding: 1rem;
+  background-color: #F2F2F5;
+
+  .section {
+  }
+}
+
+.list-menu{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  .btn-menu{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: .5rem 1rem;
+  }
+
+  .uil{
+    font-size: 1.5rem;
+  }
+}
+
+.title{
+  padding: 0 1rem;
+  font-weight: 500;
+}
+
+.wrapper-avatar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0 1rem;
+  img{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    object-fit: cover;
+
+  }
+}
+.wrapper-body{
+  display: flex;
+  width: 100%;
+  min-height: 20rem;
+  justify-content: center;
+  position: absolute;
+  padding: 2rem;
+
+
+  .label-title{
+    text-align: center;
+    font-weight: 500;
+    padding: .5rem;
+  }
+
+  .block{
+
+
+    .btn-block{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: tomato;
+      border-radius: .5rem;
+      width: 10rem;
+      height: 10rem;
+      cursor: pointer;
+      color: white;
+      font-size: 5rem;
+
+      &:hover{
+        opacity: .45;
+        transition: all ease 300ms;
+      }
+    }
+  }
+}
